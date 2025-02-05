@@ -1,0 +1,11 @@
+
+git config --local user.name Magdamit173
+git config --local user.email rovicmagdamit096@gmail.com
+git config --local core.autocrlf true
+git config --local core.editor "code --wait"
+
+git add ./
+git commit -m "version 0.0.1"
+git branch -M main
+git remote add origin https://github.com/Magdamit173/74HC-74LS.git
+git push -u origin main
