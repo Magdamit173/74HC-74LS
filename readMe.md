@@ -1,19 +1,18 @@
 ![74HC-74LS](/74hc-74ls.png)
 
+# Countdown Timer  
 
-<h>74HC-74LS _ Countdown Timer </h>
-<hr>
+A unique countdown timer using a shift register (74HC595) for ones, a 74LS48 BCD to 7-segment decoder for tens, and an Arduino for control. The code and schematic will be uploaded to the repository soon.  
 
-Unusual combination of shift register (74HC595) as ones, 74LS48 as tens, countdown timer with Arduino. I'll upload the code and schematic to the repository later.
-Good night/morning!
-components:
-- 74HC595
-- 74LS48
-- 7 segment Common Cathode
-- Arduino Uno
-- 1k Ω, 220 Ω resistor
-- Speaker/Passive Buzzer
+## Components  
+<code>
+- 74HC595 (Shift Register)<br>  
+- 74LS48 (BCD to 7-Segment Decoder)<br>  
+- 7-Segment Display (Common Cathode)<br> 
+- Arduino Uno<br>  
+- Resistors (1kΩ, 220Ω)<br>  
+- Speaker/Passive Buzzer  
+</code>
 
-<h2> Code Located Here Below </h2>
-
-sketch_feb4a_74HC-74LS.ino
+## Code Located At:  
+<code> [**sketch_feb4a_74HC-74LS.ino**](./sketch_feb4a_74HC-74LS.ino)  </code>
